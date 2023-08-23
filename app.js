@@ -9,13 +9,13 @@ const fromDollarToYen = (dolar) => {
     return dolar * oneEuroIs ["JPY"] / oneEuroIs["USD"];
 }
 
-function fromEuroToDollar(euro) {
+const fromEuroToDollar = (euro) => {
     // Convert from euros to dollars using the conversion rate
     return euro * oneEuroIs["USD"];
 }
 
 
-function fromYenToPound(yen) {
+const fromYenToPound = (yen) => {
     return yen * oneEuroIs["GBP"] / oneEuroIs["JPY"];
 }
 
